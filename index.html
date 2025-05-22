@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda Completa - REDE IBNE</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #001f3f 0%, #004080 100%);
+      color: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .agenda-container {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      padding: 30px 40px;
+      backdrop-filter: blur(8px);
+    }
+
+    .agenda-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 2.6rem;
+      color: #cce6ff;
+      letter-spacing: 1.5px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #5599ff;
+      padding-bottom: 8px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      color: #aaddff;
+      font-weight: 600;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 20px;
+      margin-bottom: 18px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+
+    .item:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .item .nome {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #e0f0ff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      width: 250px;
+    }
+
+    .item .horario {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #d0e8ff;
+      text-align: right;
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #a0bcd6cc;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    a.voltar {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #001f3f;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    a.voltar:hover {
+      background-color: #003366;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="agenda-container">
+    <h1>Agenda Completa</h1>
+
+    <section>
+      <h2>Cultos Semanais</h2>
+      <div class="item">
+        <div class="nome">Segunda-feira</div>
+        <div class="horario">Oração - Apartir das 18h</div>
+      </div>
+      <div class="item">
+        <div class="nome">Quarta-feira</div>
+        <div class="horario">Culto da familia - 19h30 as 21h</div>
+      </div>
+      <div class="item">
+        <div class="nome">Domingo</div>
+        <div class="horario">Culto Geral - 19h30 as 21h</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Eventos Especiais</h2>
+      <div class="item">
+        <div class="nome">Culto de jovens</div>
+        <div class="horario">31/05, 19h30</div>
+      </div>
+      
+      <div class="item">
+        <div class="nome">Crianças no monte (SAIDA NA IGREJA)</div>
+        <div class="horario">01/06, as 8h</div>
+      </div>
+      
+  
+      
+               <div class="item">
+        <div class="nome">Encontro de casais</div>
+        <div class="horario">07/06, 19h30</div>
+      </div>
+     
+     
+  <div style="text-align: center;">
+      <a class="voltar" href="index.html">← Voltar para o início</a>
+    </div>
+
+    <footer>
+      © 2025 REDE IBNE - Todos os direitos reservados.
+    </footer>
+  </main>
+
+</body>
+</html>
